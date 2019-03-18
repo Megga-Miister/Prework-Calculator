@@ -28,8 +28,9 @@ Output to the console the answer to the proposed math problem.
 ##### Sample Inputs
    Add, 8, 5
 ##### Sample Output
-	40
+	13
 ##### Screenshot 
+![Successful execution of Add Method](\Assets\AddMethod.JPG)
 
 #### Subtract Method Example
 ##### Sample Inputs
@@ -37,6 +38,7 @@ Output to the console the answer to the proposed math problem.
 ##### Sample Output
 	1
 ##### Screenshot
+![Successful execution of Subtract Method](\Assets\SubtractMethod.JPG)
 
 #### Multiple Method Example
 ##### Sample Inputs
@@ -44,6 +46,7 @@ Output to the console the answer to the proposed math problem.
 ##### Sample Output
 	63
 ##### Screenshot
+![Successful execution of Multiply Method](\Assets\MultiplyMethod.JPG)
 
 #### Divide Method Example
 ##### Sample Inputs
@@ -51,5 +54,6 @@ Output to the console the answer to the proposed math problem.
 ##### Sample Output
 	2
 ##### Screenshot
+![Successful execution of Divide Method](\Assets\DivideMethod.JPG)
 
 
