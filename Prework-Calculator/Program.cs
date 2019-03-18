@@ -28,9 +28,14 @@ namespace Prework_Calculator
                 Console.WriteLine("The sum of " + numberA + " & " + numberB + " is " + solution);
             } else if (calculate == "Subtract")
                 {
-                int solution = Subtract(numberA, numberB);
-                Console.WriteLine("The difference of " + numberA + " & " + numberB + " is " + solution);
-                }
+                    int solution = Subtract(numberA, numberB);
+                    Console.WriteLine("The difference of " + numberA + " & " + numberB + " is " + solution);
+                } else if (calculate == "Multiply")
+                    {
+                        int solution = Multiply(numberA, numberB);
+                        Console.WriteLine("The difference of " + numberA + " & " + numberB + " is " + solution);
+                    } 
+
 
             Console.ReadLine();
         }
@@ -50,8 +55,13 @@ namespace Prework_Calculator
             return difference;
         }
 
-        //multiply method
-        //run given numbers through chosen calculations
+        //multiply method - run given numbers through chosen calculations
+        static int Multiply(int givenNumberA, int givenNumberB)
+        {
+            int product = givenNumberA * givenNumberB;
+            return product;
+        }
+
         //divide method
         //run given numbers through chosen calculations
 
