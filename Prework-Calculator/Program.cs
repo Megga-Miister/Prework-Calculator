@@ -75,6 +75,3 @@ namespace Prework_Calculator
             int quotient = givenNumberA / givenNumberB;
             return quotient;
         }
-
-    }
-}
