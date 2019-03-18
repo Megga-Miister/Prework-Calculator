@@ -17,6 +17,39 @@ Each of these methods should take in 2 parameters, and return the solution of th
 
 Output to the console the answer to the proposed math problem.
 
-Documentation
-Comment your code.
-Provide screen captures in your Readme of what you application looks like during basic execution.
+#### User Instructions
+1. You will be prompted to enter what kind of calculation you will like to run. The four options are: Add, Subtract, Multiply and Divide.
+2. You will then want to type in one of the four options
+3. You will then be prompted to enter the first number you would like to include in your calculation. Enter desired number.
+4. You will then be prompted to enter the second number you would like to include in you calculation. Enter desired number.
+5. You will then receive the calculation result of based on your entries in the previous steps.
+
+#### Add Method Example
+##### Sample Inputs
+   Add, 8, 5
+##### Sample Output
+	40
+##### Screenshot 
+
+#### Subtract Method Example
+##### Sample Inputs
+   Subtract, 4, 3
+##### Sample Output
+	1
+##### Screenshot
+
+#### Multiple Method Example
+##### Sample Inputs
+   Multiple, 7,9
+##### Sample Output
+	63
+##### Screenshot
+
+#### Divide Method Example
+##### Sample Inputs
+   Divide, 6, 2
+##### Sample Output
+	2
+##### Screenshot
+
+
