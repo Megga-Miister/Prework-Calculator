@@ -34,7 +34,14 @@ namespace Prework_Calculator
                     {
                         int solution = Multiply(numberA, numberB);
                         Console.WriteLine("The difference of " + numberA + " & " + numberB + " is " + solution);
-                    } 
+                    } else if (calculate == "Divide")
+                        {
+                            int solution = Divide(numberA, numberB);
+                            Console.WriteLine("The quotient of " + numberA + " & " + numberB + " is " + solution);
+                        } else
+                            {
+                                Console.WriteLine("You did not enter a valid calculation type.");
+                            }
 
 
             Console.ReadLine();
@@ -62,8 +69,12 @@ namespace Prework_Calculator
             return product;
         }
 
-        //divide method
-        //run given numbers through chosen calculations
+        //divide method - run given numbers through chosen calculations
+        static int Divide(int givenNumberA, int givenNumberB)
+        {
+            int quotient = givenNumberA / givenNumberB;
+            return quotient;
+        }
 
 
     }
