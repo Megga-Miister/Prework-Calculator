@@ -10,6 +10,7 @@ namespace Prework_Calculator
     {
         public static void Main(string[] args)
         {
+            int solution = 0;
             //prompt user to enter what kind of calculation they would like
             Console.WriteLine("Please choose what type of calculation you would like: Add, Subtract, Multiply or Divide");
             string calculate = Console.ReadLine();
@@ -21,15 +22,29 @@ namespace Prework_Calculator
             Console.WriteLine("Please enter the other number you would like to " + calculate + " with.");
             int numberB = Convert.ToInt32(Console.ReadLine());
 
+            Answer();
+
         }
 
-        //TO DO
-        private static void Add()
+        //if statement to determine which method to use for calculation results
+        private static Answer (int numberA, int numberB, string calculate)
         {
+            if (calculate == "Add" || "add")
+            {
+            solution = Add();
+            Console.WriteLine("The sum of " + numberA + " & " + numberB + " is " + solution);
+            Console.ReadLine();
+            }
 
         }
-        //add method
-        //run given numbers through chosen calculations
+        
+        //add method - run given numbers through chosen calculations
+        private static Add(int numberA, int numberB)
+        {
+            int sum = numberA + numberB;
+            return sum();
+        }
+
         //subtract method
         //run given numbers through chosen calculations
         //multiply method
