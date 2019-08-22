@@ -47,7 +47,7 @@ Output to the console the answer to the proposed math problem.
 ##### Sample Inputs
    Divide, 6, 2
 ##### Sample Output
-	2
+	3
 ##### Screenshot
 ![Successful execution of Divide Method](Assets/DivideMethod.JPG)
 
